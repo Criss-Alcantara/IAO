@@ -1,0 +1,1819 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.misc.InputMappedClassifier -I -trim -W weka.classifiers.trees.RandomForest -- -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     train_dummies
+Instances:    1456
+Attributes:   321
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+InputMappedClassifier:
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+Attribute mappings:
+
+Model attributes                 	    Incoming attributes
+---------------------------------	    ----------------
+(numeric) 1stFlrSF               	--> 1 (numeric) 1stFlrSF
+(numeric) 2ndFlrSF               	--> 2 (numeric) 2ndFlrSF
+(numeric) 3SsnPorch              	--> 3 (numeric) 3SsnPorch
+(numeric) BedroomAbvGr           	--> 4 (numeric) BedroomAbvGr
+(numeric) BsmtFinSF1             	--> 5 (numeric) BsmtFinSF1
+(numeric) BsmtFinSF2             	--> 6 (numeric) BsmtFinSF2
+(numeric) BsmtFullBath           	--> 7 (numeric) BsmtFullBath
+(numeric) BsmtHalfBath           	--> 8 (numeric) BsmtHalfBath
+(numeric) BsmtUnfSF              	--> 9 (numeric) BsmtUnfSF
+(numeric) EnclosedPorch          	--> 10 (numeric) EnclosedPorch
+(numeric) Fireplaces             	--> 11 (numeric) Fireplaces
+(numeric) FullBath               	--> 12 (numeric) FullBath
+(numeric) GarageArea             	--> 13 (numeric) GarageArea
+(numeric) GarageCars             	--> 14 (numeric) GarageCars
+(numeric) GarageYrBlt            	--> 15 (numeric) GarageYrBlt
+(numeric) GrLivArea              	--> 16 (numeric) GrLivArea
+(numeric) HalfBath               	--> 17 (numeric) HalfBath
+(numeric) KitchenAbvGr           	--> 18 (numeric) KitchenAbvGr
+(numeric) LotArea                	--> 19 (numeric) LotArea
+(numeric) LotFrontage            	--> 20 (numeric) LotFrontage
+(numeric) LowQualFinSF           	--> 21 (numeric) LowQualFinSF
+(numeric) MasVnrArea             	--> 22 (numeric) MasVnrArea
+(numeric) MiscVal                	--> 23 (numeric) MiscVal
+(numeric) OpenPorchSF            	--> 24 (numeric) OpenPorchSF
+(numeric) OverallQual            	--> 25 (numeric) OverallQual
+(numeric) PoolArea               	--> 26 (numeric) PoolArea
+(numeric) ScreenPorch            	--> 27 (numeric) ScreenPorch
+(numeric) TotRmsAbvGrd           	--> 28 (numeric) TotRmsAbvGrd
+(numeric) TotalBsmtSF            	--> 29 (numeric) TotalBsmtSF
+(numeric) WoodDeckSF             	--> 30 (numeric) WoodDeckSF
+(numeric) YearBuilt              	--> 31 (numeric) YearBuilt
+(numeric) YearRemodAdd           	--> 32 (numeric) YearRemodAdd
+(numeric) TotalArea              	--> 33 (numeric) TotalArea
+(numeric) AreaAbvground          	--> 34 (numeric) AreaAbvground
+(numeric) TotalBaths             	--> 35 (numeric) TotalBaths
+(numeric) Alley_Grvl             	--> 36 (numeric) Alley_Grvl
+(numeric) Alley_None             	--> 37 (numeric) Alley_None
+(numeric) Alley_Pave             	--> 38 (numeric) Alley_Pave
+(numeric) BldgType_1Fam          	--> 39 (numeric) BldgType_1Fam
+(numeric) BldgType_2fmCon        	--> 40 (numeric) BldgType_2fmCon
+(numeric) BldgType_Duplex        	--> 41 (numeric) BldgType_Duplex
+(numeric) BldgType_Twnhs         	--> 42 (numeric) BldgType_Twnhs
+(numeric) BldgType_TwnhsE        	--> 43 (numeric) BldgType_TwnhsE
+(numeric) BsmtCond_Fa            	--> 44 (numeric) BsmtCond_Fa
+(numeric) BsmtCond_Gd            	--> 45 (numeric) BsmtCond_Gd
+(numeric) BsmtCond_None          	--> 46 (numeric) BsmtCond_None
+(numeric) BsmtCond_Po            	--> 47 (numeric) BsmtCond_Po
+(numeric) BsmtCond_TA            	--> 48 (numeric) BsmtCond_TA
+(numeric) BsmtExposure_Av        	--> 49 (numeric) BsmtExposure_Av
+(numeric) BsmtExposure_Gd        	--> 50 (numeric) BsmtExposure_Gd
+(numeric) BsmtExposure_Mn        	--> 51 (numeric) BsmtExposure_Mn
+(numeric) BsmtExposure_No        	--> 52 (numeric) BsmtExposure_No
+(numeric) BsmtExposure_None      	--> 53 (numeric) BsmtExposure_None
+(numeric) BsmtFinType1_ALQ       	--> 54 (numeric) BsmtFinType1_ALQ
+(numeric) BsmtFinType1_BLQ       	--> 55 (numeric) BsmtFinType1_BLQ
+(numeric) BsmtFinType1_GLQ       	--> 56 (numeric) BsmtFinType1_GLQ
+(numeric) BsmtFinType1_LwQ       	--> 57 (numeric) BsmtFinType1_LwQ
+(numeric) BsmtFinType1_None      	--> 58 (numeric) BsmtFinType1_None
+(numeric) BsmtFinType1_Rec       	--> 59 (numeric) BsmtFinType1_Rec
+(numeric) BsmtFinType1_Unf       	--> 60 (numeric) BsmtFinType1_Unf
+(numeric) BsmtFinType2_ALQ       	--> 61 (numeric) BsmtFinType2_ALQ
+(numeric) BsmtFinType2_BLQ       	--> 62 (numeric) BsmtFinType2_BLQ
+(numeric) BsmtFinType2_GLQ       	--> 63 (numeric) BsmtFinType2_GLQ
+(numeric) BsmtFinType2_LwQ       	--> 64 (numeric) BsmtFinType2_LwQ
+(numeric) BsmtFinType2_None      	--> 65 (numeric) BsmtFinType2_None
+(numeric) BsmtFinType2_Rec       	--> 66 (numeric) BsmtFinType2_Rec
+(numeric) BsmtFinType2_Unf       	--> 67 (numeric) BsmtFinType2_Unf
+(numeric) BsmtQual_Ex            	--> 68 (numeric) BsmtQual_Ex
+(numeric) BsmtQual_Fa            	--> 69 (numeric) BsmtQual_Fa
+(numeric) BsmtQual_Gd            	--> 70 (numeric) BsmtQual_Gd
+(numeric) BsmtQual_None          	--> 71 (numeric) BsmtQual_None
+(numeric) BsmtQual_TA            	--> 72 (numeric) BsmtQual_TA
+(numeric) CentralAir_N           	--> 73 (numeric) CentralAir_N
+(numeric) CentralAir_Y           	--> 74 (numeric) CentralAir_Y
+(numeric) Condition1_Artery      	--> 75 (numeric) Condition1_Artery
+(numeric) Condition1_Feedr       	--> 76 (numeric) Condition1_Feedr
+(numeric) Condition1_Norm        	--> 77 (numeric) Condition1_Norm
+(numeric) Condition1_PosA        	--> 78 (numeric) Condition1_PosA
+(numeric) Condition1_PosN        	--> 79 (numeric) Condition1_PosN
+(numeric) Condition1_RRAe        	--> 80 (numeric) Condition1_RRAe
+(numeric) Condition1_RRAn        	--> 81 (numeric) Condition1_RRAn
+(numeric) Condition1_RRNe        	--> 82 (numeric) Condition1_RRNe
+(numeric) Condition1_RRNn        	--> 83 (numeric) Condition1_RRNn
+(numeric) Electrical_FuseA       	--> 84 (numeric) Electrical_FuseA
+(numeric) Electrical_FuseF       	--> 85 (numeric) Electrical_FuseF
+(numeric) Electrical_FuseP       	--> 86 (numeric) Electrical_FuseP
+(numeric) Electrical_Mix         	--> 87 (numeric) Electrical_Mix
+(numeric) Electrical_None        	--> 88 (numeric) Electrical_None
+(numeric) Electrical_SBrkr       	--> 89 (numeric) Electrical_SBrkr
+(numeric) ExterCond_Ex           	--> 90 (numeric) ExterCond_Ex
+(numeric) ExterCond_Fa           	--> 91 (numeric) ExterCond_Fa
+(numeric) ExterCond_Gd           	--> 92 (numeric) ExterCond_Gd
+(numeric) ExterCond_Po           	--> 93 (numeric) ExterCond_Po
+(numeric) ExterCond_TA           	--> 94 (numeric) ExterCond_TA
+(numeric) ExterQual_Ex           	--> 95 (numeric) ExterQual_Ex
+(numeric) ExterQual_Fa           	--> 96 (numeric) ExterQual_Fa
+(numeric) ExterQual_Gd           	--> 97 (numeric) ExterQual_Gd
+(numeric) ExterQual_TA           	--> 98 (numeric) ExterQual_TA
+(numeric) Exterior1st_AsbShng    	--> 99 (numeric) Exterior1st_AsbShng
+(numeric) Exterior1st_AsphShn    	--> 100 (numeric) Exterior1st_AsphShn
+(numeric) Exterior1st_BrkComm    	--> 101 (numeric) Exterior1st_BrkComm
+(numeric) Exterior1st_BrkFace    	--> 102 (numeric) Exterior1st_BrkFace
+(numeric) Exterior1st_CBlock     	--> 103 (numeric) Exterior1st_CBlock
+(numeric) Exterior1st_CemntBd    	--> 104 (numeric) Exterior1st_CemntBd
+(numeric) Exterior1st_HdBoard    	--> 105 (numeric) Exterior1st_HdBoard
+(numeric) Exterior1st_ImStucc    	--> 106 (numeric) Exterior1st_ImStucc
+(numeric) Exterior1st_MetalSd    	--> 107 (numeric) Exterior1st_MetalSd
+(numeric) Exterior1st_None       	--> 108 (numeric) Exterior1st_None
+(numeric) Exterior1st_Plywood    	--> 109 (numeric) Exterior1st_Plywood
+(numeric) Exterior1st_Stone      	--> 110 (numeric) Exterior1st_Stone
+(numeric) Exterior1st_Stucco     	--> 111 (numeric) Exterior1st_Stucco
+(numeric) Exterior1st_VinylSd    	--> 112 (numeric) Exterior1st_VinylSd
+(numeric) Exterior1st_Wd Sdng    	--> 113 (numeric) Exterior1st_Wd Sdng
+(numeric) Exterior1st_WdShing    	--> 114 (numeric) Exterior1st_WdShing
+(numeric) Exterior2nd_AsbShng    	--> 115 (numeric) Exterior2nd_AsbShng
+(numeric) Exterior2nd_AsphShn    	--> 116 (numeric) Exterior2nd_AsphShn
+(numeric) Exterior2nd_Brk Cmn    	--> 117 (numeric) Exterior2nd_Brk Cmn
+(numeric) Exterior2nd_BrkFace    	--> 118 (numeric) Exterior2nd_BrkFace
+(numeric) Exterior2nd_CBlock     	--> 119 (numeric) Exterior2nd_CBlock
+(numeric) Exterior2nd_CmentBd    	--> 120 (numeric) Exterior2nd_CmentBd
+(numeric) Exterior2nd_HdBoard    	--> 121 (numeric) Exterior2nd_HdBoard
+(numeric) Exterior2nd_ImStucc    	--> 122 (numeric) Exterior2nd_ImStucc
+(numeric) Exterior2nd_MetalSd    	--> 123 (numeric) Exterior2nd_MetalSd
+(numeric) Exterior2nd_None       	--> 124 (numeric) Exterior2nd_None
+(numeric) Exterior2nd_Other      	--> 125 (numeric) Exterior2nd_Other
+(numeric) Exterior2nd_Plywood    	--> 126 (numeric) Exterior2nd_Plywood
+(numeric) Exterior2nd_Stone      	--> 127 (numeric) Exterior2nd_Stone
+(numeric) Exterior2nd_Stucco     	--> 128 (numeric) Exterior2nd_Stucco
+(numeric) Exterior2nd_VinylSd    	--> 129 (numeric) Exterior2nd_VinylSd
+(numeric) Exterior2nd_Wd Sdng    	--> 130 (numeric) Exterior2nd_Wd Sdng
+(numeric) Exterior2nd_Wd Shng    	--> 131 (numeric) Exterior2nd_Wd Shng
+(numeric) Fence_GdPrv            	--> 132 (numeric) Fence_GdPrv
+(numeric) Fence_GdWo             	--> 133 (numeric) Fence_GdWo
+(numeric) Fence_MnPrv            	--> 134 (numeric) Fence_MnPrv
+(numeric) Fence_MnWw             	--> 135 (numeric) Fence_MnWw
+(numeric) Fence_None             	--> 136 (numeric) Fence_None
+(numeric) FireplaceQu_Ex         	--> 137 (numeric) FireplaceQu_Ex
+(numeric) FireplaceQu_Fa         	--> 138 (numeric) FireplaceQu_Fa
+(numeric) FireplaceQu_Gd         	--> 139 (numeric) FireplaceQu_Gd
+(numeric) FireplaceQu_None       	--> 140 (numeric) FireplaceQu_None
+(numeric) FireplaceQu_Po         	--> 141 (numeric) FireplaceQu_Po
+(numeric) FireplaceQu_TA         	--> 142 (numeric) FireplaceQu_TA
+(numeric) Foundation_BrkTil      	--> 143 (numeric) Foundation_BrkTil
+(numeric) Foundation_CBlock      	--> 144 (numeric) Foundation_CBlock
+(numeric) Foundation_PConc       	--> 145 (numeric) Foundation_PConc
+(numeric) Foundation_Slab        	--> 146 (numeric) Foundation_Slab
+(numeric) Foundation_Stone       	--> 147 (numeric) Foundation_Stone
+(numeric) Foundation_Wood        	--> 148 (numeric) Foundation_Wood
+(numeric) Functional_Maj1        	--> 149 (numeric) Functional_Maj1
+(numeric) Functional_Maj2        	--> 150 (numeric) Functional_Maj2
+(numeric) Functional_Min1        	--> 151 (numeric) Functional_Min1
+(numeric) Functional_Min2        	--> 152 (numeric) Functional_Min2
+(numeric) Functional_Mod         	--> 153 (numeric) Functional_Mod
+(numeric) Functional_None        	--> 154 (numeric) Functional_None
+(numeric) Functional_Sev         	--> 155 (numeric) Functional_Sev
+(numeric) Functional_Typ         	--> 156 (numeric) Functional_Typ
+(numeric) GarageCond_Ex          	--> 157 (numeric) GarageCond_Ex
+(numeric) GarageCond_Fa          	--> 158 (numeric) GarageCond_Fa
+(numeric) GarageCond_Gd          	--> 159 (numeric) GarageCond_Gd
+(numeric) GarageCond_None        	--> 160 (numeric) GarageCond_None
+(numeric) GarageCond_Po          	--> 161 (numeric) GarageCond_Po
+(numeric) GarageCond_TA          	--> 162 (numeric) GarageCond_TA
+(numeric) GarageFinish_Fin       	--> 163 (numeric) GarageFinish_Fin
+(numeric) GarageFinish_None      	--> 164 (numeric) GarageFinish_None
+(numeric) GarageFinish_RFn       	--> 165 (numeric) GarageFinish_RFn
+(numeric) GarageFinish_Unf       	--> 166 (numeric) GarageFinish_Unf
+(numeric) GarageQual_Ex          	--> 167 (numeric) GarageQual_Ex
+(numeric) GarageQual_Fa          	--> 168 (numeric) GarageQual_Fa
+(numeric) GarageQual_Gd          	--> 169 (numeric) GarageQual_Gd
+(numeric) GarageQual_None        	--> 170 (numeric) GarageQual_None
+(numeric) GarageQual_Po          	--> 171 (numeric) GarageQual_Po
+(numeric) GarageQual_TA          	--> 172 (numeric) GarageQual_TA
+(numeric) GarageType_2Types      	--> 173 (numeric) GarageType_2Types
+(numeric) GarageType_Attchd      	--> 174 (numeric) GarageType_Attchd
+(numeric) GarageType_Basment     	--> 175 (numeric) GarageType_Basment
+(numeric) GarageType_BuiltIn     	--> 176 (numeric) GarageType_BuiltIn
+(numeric) GarageType_CarPort     	--> 177 (numeric) GarageType_CarPort
+(numeric) GarageType_Detchd      	--> 178 (numeric) GarageType_Detchd
+(numeric) GarageType_None        	--> 179 (numeric) GarageType_None
+(numeric) HeatingQC_Ex           	--> 180 (numeric) HeatingQC_Ex
+(numeric) HeatingQC_Fa           	--> 181 (numeric) HeatingQC_Fa
+(numeric) HeatingQC_Gd           	--> 182 (numeric) HeatingQC_Gd
+(numeric) HeatingQC_Po           	--> 183 (numeric) HeatingQC_Po
+(numeric) HeatingQC_TA           	--> 184 (numeric) HeatingQC_TA
+(numeric) HouseStyle_1.5Fin      	--> 185 (numeric) HouseStyle_1.5Fin
+(numeric) HouseStyle_1.5Unf      	--> 186 (numeric) HouseStyle_1.5Unf
+(numeric) HouseStyle_1Story      	--> 187 (numeric) HouseStyle_1Story
+(numeric) HouseStyle_2.5Fin      	--> 188 (numeric) HouseStyle_2.5Fin
+(numeric) HouseStyle_2.5Unf      	--> 189 (numeric) HouseStyle_2.5Unf
+(numeric) HouseStyle_2Story      	--> 190 (numeric) HouseStyle_2Story
+(numeric) HouseStyle_SFoyer      	--> 191 (numeric) HouseStyle_SFoyer
+(numeric) HouseStyle_SLvl        	--> 192 (numeric) HouseStyle_SLvl
+(numeric) KitchenQual_Ex         	--> 193 (numeric) KitchenQual_Ex
+(numeric) KitchenQual_Fa         	--> 194 (numeric) KitchenQual_Fa
+(numeric) KitchenQual_Gd         	--> 195 (numeric) KitchenQual_Gd
+(numeric) KitchenQual_None       	--> 196 (numeric) KitchenQual_None
+(numeric) KitchenQual_TA         	--> 197 (numeric) KitchenQual_TA
+(numeric) LandContour_Bnk        	--> 198 (numeric) LandContour_Bnk
+(numeric) LandContour_HLS        	--> 199 (numeric) LandContour_HLS
+(numeric) LandContour_Low        	--> 200 (numeric) LandContour_Low
+(numeric) LandContour_Lvl        	--> 201 (numeric) LandContour_Lvl
+(numeric) LandSlope_Gtl          	--> 202 (numeric) LandSlope_Gtl
+(numeric) LandSlope_Mod          	--> 203 (numeric) LandSlope_Mod
+(numeric) LandSlope_Sev          	--> 204 (numeric) LandSlope_Sev
+(numeric) LotConfig_Corner       	--> 205 (numeric) LotConfig_Corner
+(numeric) LotConfig_CulDSac      	--> 206 (numeric) LotConfig_CulDSac
+(numeric) LotConfig_FR2          	--> 207 (numeric) LotConfig_FR2
+(numeric) LotConfig_FR3          	--> 208 (numeric) LotConfig_FR3
+(numeric) LotConfig_Inside       	--> 209 (numeric) LotConfig_Inside
+(numeric) LotShape_IR1           	--> 210 (numeric) LotShape_IR1
+(numeric) LotShape_IR2           	--> 211 (numeric) LotShape_IR2
+(numeric) LotShape_IR3           	--> 212 (numeric) LotShape_IR3
+(numeric) LotShape_Reg           	--> 213 (numeric) LotShape_Reg
+(numeric) MSSubClass_120         	--> 214 (numeric) MSSubClass_120
+(numeric) MSSubClass_150         	--> 215 (numeric) MSSubClass_150
+(numeric) MSSubClass_160         	--> 216 (numeric) MSSubClass_160
+(numeric) MSSubClass_180         	--> 217 (numeric) MSSubClass_180
+(numeric) MSSubClass_190         	--> 218 (numeric) MSSubClass_190
+(numeric) MSSubClass_20          	--> 219 (numeric) MSSubClass_20
+(numeric) MSSubClass_30          	--> 220 (numeric) MSSubClass_30
+(numeric) MSSubClass_40          	--> 221 (numeric) MSSubClass_40
+(numeric) MSSubClass_45          	--> 222 (numeric) MSSubClass_45
+(numeric) MSSubClass_50          	--> 223 (numeric) MSSubClass_50
+(numeric) MSSubClass_60          	--> 224 (numeric) MSSubClass_60
+(numeric) MSSubClass_70          	--> 225 (numeric) MSSubClass_70
+(numeric) MSSubClass_75          	--> 226 (numeric) MSSubClass_75
+(numeric) MSSubClass_80          	--> 227 (numeric) MSSubClass_80
+(numeric) MSSubClass_85          	--> 228 (numeric) MSSubClass_85
+(numeric) MSSubClass_90          	--> 229 (numeric) MSSubClass_90
+(numeric) MSZoning_C (all)       	--> 230 (numeric) MSZoning_C (all)
+(numeric) MSZoning_FV            	--> 231 (numeric) MSZoning_FV
+(numeric) MSZoning_None          	--> 232 (numeric) MSZoning_None
+(numeric) MSZoning_RH            	--> 233 (numeric) MSZoning_RH
+(numeric) MSZoning_RL            	--> 234 (numeric) MSZoning_RL
+(numeric) MSZoning_RM            	--> 235 (numeric) MSZoning_RM
+(numeric) MasVnrType_BrkCmn      	--> 236 (numeric) MasVnrType_BrkCmn
+(numeric) MasVnrType_BrkFace     	--> 237 (numeric) MasVnrType_BrkFace
+(numeric) MasVnrType_None        	--> 238 (numeric) MasVnrType_None
+(numeric) MasVnrType_Stone       	--> 239 (numeric) MasVnrType_Stone
+(numeric) MiscFeature_Gar2       	--> 240 (numeric) MiscFeature_Gar2
+(numeric) MiscFeature_None       	--> 241 (numeric) MiscFeature_None
+(numeric) MiscFeature_Othr       	--> 242 (numeric) MiscFeature_Othr
+(numeric) MiscFeature_Shed       	--> 243 (numeric) MiscFeature_Shed
+(numeric) MiscFeature_TenC       	--> 244 (numeric) MiscFeature_TenC
+(numeric) MoSold_1               	--> 245 (numeric) MoSold_1
+(numeric) MoSold_10              	--> 246 (numeric) MoSold_10
+(numeric) MoSold_11              	--> 247 (numeric) MoSold_11
+(numeric) MoSold_12              	--> 248 (numeric) MoSold_12
+(numeric) MoSold_2               	--> 249 (numeric) MoSold_2
+(numeric) MoSold_3               	--> 250 (numeric) MoSold_3
+(numeric) MoSold_4               	--> 251 (numeric) MoSold_4
+(numeric) MoSold_5               	--> 252 (numeric) MoSold_5
+(numeric) MoSold_6               	--> 253 (numeric) MoSold_6
+(numeric) MoSold_7               	--> 254 (numeric) MoSold_7
+(numeric) MoSold_8               	--> 255 (numeric) MoSold_8
+(numeric) MoSold_9               	--> 256 (numeric) MoSold_9
+(numeric) Neighborhood_Blmngtn   	--> 257 (numeric) Neighborhood_Blmngtn
+(numeric) Neighborhood_Blueste   	--> 258 (numeric) Neighborhood_Blueste
+(numeric) Neighborhood_BrDale    	--> 259 (numeric) Neighborhood_BrDale
+(numeric) Neighborhood_BrkSide   	--> 260 (numeric) Neighborhood_BrkSide
+(numeric) Neighborhood_ClearCr   	--> 261 (numeric) Neighborhood_ClearCr
+(numeric) Neighborhood_CollgCr   	--> 262 (numeric) Neighborhood_CollgCr
+(numeric) Neighborhood_Crawfor   	--> 263 (numeric) Neighborhood_Crawfor
+(numeric) Neighborhood_Edwards   	--> 264 (numeric) Neighborhood_Edwards
+(numeric) Neighborhood_Gilbert   	--> 265 (numeric) Neighborhood_Gilbert
+(numeric) Neighborhood_IDOTRR    	--> 266 (numeric) Neighborhood_IDOTRR
+(numeric) Neighborhood_MeadowV   	--> 267 (numeric) Neighborhood_MeadowV
+(numeric) Neighborhood_Mitchel   	--> 268 (numeric) Neighborhood_Mitchel
+(numeric) Neighborhood_NAmes     	--> 269 (numeric) Neighborhood_NAmes
+(numeric) Neighborhood_NPkVill   	--> 270 (numeric) Neighborhood_NPkVill
+(numeric) Neighborhood_NWAmes    	--> 271 (numeric) Neighborhood_NWAmes
+(numeric) Neighborhood_NoRidge   	--> 272 (numeric) Neighborhood_NoRidge
+(numeric) Neighborhood_NridgHt   	--> 273 (numeric) Neighborhood_NridgHt
+(numeric) Neighborhood_OldTown   	--> 274 (numeric) Neighborhood_OldTown
+(numeric) Neighborhood_SWISU     	--> 275 (numeric) Neighborhood_SWISU
+(numeric) Neighborhood_Sawyer    	--> 276 (numeric) Neighborhood_Sawyer
+(numeric) Neighborhood_SawyerW   	--> 277 (numeric) Neighborhood_SawyerW
+(numeric) Neighborhood_Somerst   	--> 278 (numeric) Neighborhood_Somerst
+(numeric) Neighborhood_StoneBr   	--> 279 (numeric) Neighborhood_StoneBr
+(numeric) Neighborhood_Timber    	--> 280 (numeric) Neighborhood_Timber
+(numeric) Neighborhood_Veenker   	--> 281 (numeric) Neighborhood_Veenker
+(numeric) OverallCond_1          	--> 282 (numeric) OverallCond_1
+(numeric) OverallCond_2          	--> 283 (numeric) OverallCond_2
+(numeric) OverallCond_3          	--> 284 (numeric) OverallCond_3
+(numeric) OverallCond_4          	--> 285 (numeric) OverallCond_4
+(numeric) OverallCond_5          	--> 286 (numeric) OverallCond_5
+(numeric) OverallCond_6          	--> 287 (numeric) OverallCond_6
+(numeric) OverallCond_7          	--> 288 (numeric) OverallCond_7
+(numeric) OverallCond_8          	--> 289 (numeric) OverallCond_8
+(numeric) OverallCond_9          	--> 290 (numeric) OverallCond_9
+(numeric) PavedDrive_N           	--> 291 (numeric) PavedDrive_N
+(numeric) PavedDrive_P           	--> 292 (numeric) PavedDrive_P
+(numeric) PavedDrive_Y           	--> 293 (numeric) PavedDrive_Y
+(numeric) RoofStyle_Flat         	--> 294 (numeric) RoofStyle_Flat
+(numeric) RoofStyle_Gable        	--> 295 (numeric) RoofStyle_Gable
+(numeric) RoofStyle_Gambrel      	--> 296 (numeric) RoofStyle_Gambrel
+(numeric) RoofStyle_Hip          	--> 297 (numeric) RoofStyle_Hip
+(numeric) RoofStyle_Mansard      	--> 298 (numeric) RoofStyle_Mansard
+(numeric) RoofStyle_Shed         	--> 299 (numeric) RoofStyle_Shed
+(numeric) SaleCondition_Abnorml  	--> 300 (numeric) SaleCondition_Abnorml
+(numeric) SaleCondition_AdjLand  	--> 301 (numeric) SaleCondition_AdjLand
+(numeric) SaleCondition_Alloca   	--> 302 (numeric) SaleCondition_Alloca
+(numeric) SaleCondition_Family   	--> 303 (numeric) SaleCondition_Family
+(numeric) SaleCondition_Normal   	--> 304 (numeric) SaleCondition_Normal
+(numeric) SaleCondition_Partial  	--> 305 (numeric) SaleCondition_Partial
+(numeric) SaleType_COD           	--> 306 (numeric) SaleType_COD
+(numeric) SaleType_CWD           	--> 307 (numeric) SaleType_CWD
+(numeric) SaleType_Con           	--> 308 (numeric) SaleType_Con
+(numeric) SaleType_ConLD         	--> 309 (numeric) SaleType_ConLD
+(numeric) SaleType_ConLI         	--> 310 (numeric) SaleType_ConLI
+(numeric) SaleType_ConLw         	--> 311 (numeric) SaleType_ConLw
+(numeric) SaleType_New           	--> 312 (numeric) SaleType_New
+(numeric) SaleType_None          	--> 313 (numeric) SaleType_None
+(numeric) SaleType_Oth           	--> 314 (numeric) SaleType_Oth
+(numeric) SaleType_WD            	--> 315 (numeric) SaleType_WD
+(numeric) YrSold_2006            	--> 316 (numeric) YrSold_2006
+(numeric) YrSold_2007            	--> 317 (numeric) YrSold_2007
+(numeric) YrSold_2008            	--> 318 (numeric) YrSold_2008
+(numeric) YrSold_2009            	--> 319 (numeric) YrSold_2009
+(numeric) YrSold_2010            	--> 320 (numeric) YrSold_2010
+(numeric) SalePrice              	--> 321 missing (type mis-match)
+
+
+Time taken to build model: 1.38 seconds
+
+=== Predictions on test set ===
+
+inst#,actual,predicted,error
+1,?,125566.311,?
+2,?,150202.001,?
+3,?,184833.96,?
+4,?,192111.726,?
+5,?,190469.513,?
+6,?,180872.208,?
+7,?,168070.664,?
+8,?,173943.947,?
+9,?,179515.367,?
+10,?,131798.387,?
+11,?,203672.673,?
+12,?,98920.527,?
+13,?,101713.835,?
+14,?,155341.269,?
+15,?,125150.293,?
+16,?,360420.66,?
+17,?,247083.123,?
+18,?,304718.296,?
+19,?,296964.468,?
+20,?,447886.973,?
+21,?,317117.501,?
+22,?,205056.426,?
+23,?,189382.46,?
+24,?,175797.257,?
+25,?,186396.534,?
+26,?,202973.314,?
+27,?,331398.384,?
+28,?,237460.26,?
+29,?,199664.156,?
+30,?,229454.775,?
+31,?,193851.4,?
+32,?,100591.512,?
+33,?,184950.637,?
+34,?,283220.175,?
+35,?,283671.563,?
+36,?,243038.617,?
+37,?,182209.212,?
+38,?,161030.361,?
+39,?,156828.494,?
+40,?,163538.822,?
+41,?,170229.343,?
+42,?,167716.536,?
+43,?,275480.677,?
+44,?,230297.788,?
+45,?,219821.223,?
+46,?,178793.787,?
+47,?,254292.423,?
+48,?,185000.4,?
+49,?,161479.6,?
+50,?,154819.962,?
+51,?,146661.183,?
+52,?,170616.702,?
+53,?,147042.89,?
+54,?,164681.12,?
+55,?,195235.743,?
+56,?,158147.104,?
+57,?,154231.234,?
+58,?,141836.999,?
+59,?,217373.17,?
+60,?,143136.853,?
+61,?,144848.925,?
+62,?,168646.303,?
+63,?,120426.936,?
+64,?,124466.652,?
+65,?,124462.18,?
+66,?,124959.566,?
+67,?,115835.415,?
+68,?,132574.853,?
+69,?,144844.078,?
+70,?,165439.375,?
+71,?,142556.84,?
+72,?,101844.566,?
+73,?,147833.882,?
+74,?,117162.062,?
+75,?,156473.167,?
+76,?,117890.285,?
+77,?,100726.762,?
+78,?,151328.458,?
+79,?,203309.047,?
+80,?,128999.073,?
+81,?,136730.834,?
+82,?,144495.611,?
+83,?,185627.342,?
+84,?,96553.069,?
+85,?,113831.866,?
+86,?,134132.88,?
+87,?,145684.209,?
+88,?,129787.273,?
+89,?,119014.786,?
+90,?,137400.083,?
+91,?,119980.24,?
+92,?,154962.838,?
+93,?,140403.437,?
+94,?,118762.343,?
+95,?,171954.419,?
+96,?,106086.592,?
+97,?,114056.277,?
+98,?,109240.563,?
+99,?,123793.987,?
+100,?,144977.137,?
+101,?,154712.187,?
+102,?,131373.113,?
+103,?,129052.204,?
+104,?,163537.769,?
+105,?,159769.633,?
+106,?,210666.777,?
+107,?,94734.501,?
+108,?,228800.433,?
+109,?,155945.519,?
+110,?,144315.577,?
+111,?,127672.98,?
+112,?,142201.268,?
+113,?,239352.107,?
+114,?,136798.637,?
+115,?,223026.153,?
+116,?,239165.318,?
+117,?,195078.752,?
+118,?,138957.683,?
+119,?,144252.898,?
+120,?,186692.231,?
+121,?,147829.331,?
+122,?,128482.845,?
+123,?,313645.284,?
+124,?,240094.968,?
+125,?,142001.749,?
+126,?,91446.356,?
+127,?,114395.04,?
+128,?,145038.206,?
+129,?,110597.19,?
+130,?,135593.638,?
+131,?,104874.637,?
+132,?,137372.544,?
+133,?,124234.697,?
+134,?,141091.023,?
+135,?,128836.723,?
+136,?,216861.2,?
+137,?,167828.45,?
+138,?,189551.816,?
+139,?,170434.795,?
+140,?,184859.575,?
+141,?,86547.088,?
+142,?,116916.14,?
+143,?,104752.453,?
+144,?,282808.656,?
+145,?,247333.202,?
+146,?,168960.118,?
+147,?,170177.741,?
+148,?,212046.465,?
+149,?,192672.155,?
+150,?,170881.758,?
+151,?,147574.728,?
+152,?,190052.138,?
+153,?,177527.075,?
+154,?,132114.642,?
+155,?,98661.633,?
+156,?,92058.383,?
+157,?,98692.597,?
+158,?,125202.957,?
+159,?,139746.801,?
+160,?,180341.776,?
+161,?,148578.012,?
+162,?,145040.707,?
+163,?,274510.474,?
+164,?,224683.503,?
+165,?,122287.394,?
+166,?,164983.221,?
+167,?,182636.206,?
+168,?,270263.733,?
+169,?,173141.027,?
+170,?,313981.545,?
+171,?,200112.379,?
+172,?,231980.042,?
+173,?,178027.089,?
+174,?,194295.695,?
+175,?,183878.902,?
+176,?,168604.909,?
+177,?,192555.875,?
+178,?,203811.724,?
+179,?,178349.285,?
+180,?,232934.78,?
+181,?,175700.079,?
+182,?,239057.086,?
+183,?,210545,?
+184,?,224824.247,?
+185,?,194522.743,?
+186,?,157107.361,?
+187,?,161248.499,?
+188,?,143118.181,?
+189,?,142962.437,?
+190,?,127246.553,?
+191,?,123375.396,?
+192,?,97016.425,?
+193,?,101528.705,?
+194,?,156689.31,?
+195,?,144528.319,?
+196,?,150522.288,?
+197,?,153661.452,?
+198,?,162248.925,?
+199,?,127841.157,?
+200,?,156750.863,?
+201,?,410980.425,?
+202,?,341855.76,?
+203,?,355017.736,?
+204,?,448068.457,?
+205,?,305908.887,?
+206,?,328030.873,?
+207,?,354296.543,?
+208,?,324841.195,?
+209,?,280608.913,?
+210,?,331490.915,?
+211,?,261281.727,?
+212,?,398851.438,?
+213,?,298164.524,?
+214,?,248949.793,?
+215,?,196413.263,?
+216,?,203021.542,?
+217,?,217665.047,?
+218,?,416344.33,?
+219,?,373901.097,?
+220,?,321061.369,?
+221,?,258712.023,?
+222,?,310565.323,?
+223,?,191255.747,?
+224,?,179299.621,?
+225,?,179126.844,?
+226,?,171832.253,?
+227,?,175362.496,?
+228,?,195818.461,?
+229,?,195267.634,?
+230,?,188300.79,?
+231,?,186051.805,?
+232,?,249927.786,?
+233,?,175807.514,?
+234,?,183399.209,?
+235,?,168888.702,?
+236,?,271737.417,?
+237,?,168730.2,?
+238,?,316653.643,?
+239,?,307266.51,?
+240,?,253051.631,?
+241,?,266697.625,?
+242,?,249458.276,?
+243,?,251713.323,?
+244,?,278571.081,?
+245,?,229974.762,?
+246,?,424243.525,?
+247,?,218283.254,?
+248,?,208607.149,?
+249,?,249724.653,?
+250,?,219718.122,?
+251,?,275697.223,?
+252,?,247130.479,?
+253,?,270892.014,?
+254,?,213552.363,?
+255,?,205747.29,?
+256,?,177065.837,?
+257,?,170718.516,?
+258,?,125705.077,?
+259,?,198721.73,?
+260,?,225812.718,?
+261,?,165047.705,?
+262,?,120836.64,?
+263,?,159208.155,?
+264,?,213842.92,?
+265,?,236920.37,?
+266,?,196422.925,?
+267,?,177662.446,?
+268,?,189939.163,?
+269,?,168148.443,?
+270,?,148675.031,?
+271,?,128500.093,?
+272,?,135416.72,?
+273,?,125542.008,?
+274,?,130171.899,?
+275,?,137326.272,?
+276,?,125464.056,?
+277,?,282085.96,?
+278,?,225507.71,?
+279,?,264852.877,?
+280,?,243067.386,?
+281,?,197345.879,?
+282,?,173879.22,?
+283,?,177895.603,?
+284,?,282935.484,?
+285,?,205092.068,?
+286,?,215505.682,?
+287,?,204454.704,?
+288,?,216691.174,?
+289,?,163620.217,?
+290,?,139437.347,?
+291,?,212605.3,?
+292,?,125349.894,?
+293,?,155296.068,?
+294,?,198674.182,?
+295,?,171095.816,?
+296,?,128294.702,?
+297,?,119231.65,?
+298,?,155319.778,?
+299,?,166963.122,?
+300,?,167635.238,?
+301,?,151479.359,?
+302,?,181133.625,?
+303,?,168479.56,?
+304,?,126320.329,?
+305,?,179631.101,?
+306,?,171721.532,?
+307,?,199946.39,?
+308,?,143364.641,?
+309,?,159560.182,?
+310,?,146108.351,?
+311,?,135150.859,?
+312,?,141313.587,?
+313,?,141417.397,?
+314,?,160247.527,?
+315,?,134875.095,?
+316,?,124742.079,?
+317,?,110179.47,?
+318,?,141905.626,?
+319,?,127288.394,?
+320,?,169297.713,?
+321,?,132449.338,?
+322,?,109812.713,?
+323,?,148389.629,?
+324,?,118521.803,?
+325,?,119826.539,?
+326,?,165890.352,?
+327,?,163093.305,?
+328,?,88179.762,?
+329,?,109414.007,?
+330,?,106937.318,?
+331,?,183949.28,?
+332,?,146923.165,?
+333,?,145222.84,?
+334,?,138360.769,?
+335,?,138187.191,?
+336,?,137938.758,?
+337,?,120752.091,?
+338,?,132173.411,?
+339,?,115827.429,?
+340,?,135606.481,?
+341,?,127416.5,?
+342,?,130133.19,?
+343,?,160763.888,?
+344,?,146489.166,?
+345,?,136153.222,?
+346,?,122606.383,?
+347,?,140852.425,?
+348,?,124128.217,?
+349,?,121188.292,?
+350,?,140886.638,?
+351,?,117808.787,?
+352,?,107075.538,?
+353,?,120642.689,?
+354,?,100717.127,?
+355,?,79947.64,?
+356,?,113081.309,?
+357,?,145329.453,?
+358,?,149311.387,?
+359,?,133399.031,?
+360,?,87851.971,?
+361,?,120509.547,?
+362,?,145432.388,?
+363,?,74943.56,?
+364,?,131297.34,?
+365,?,145006.913,?
+366,?,114837.965,?
+367,?,110562.955,?
+368,?,132292.5,?
+369,?,123472.507,?
+370,?,139720.322,?
+371,?,138941.347,?
+372,?,129236.267,?
+373,?,147857.813,?
+374,?,131197.41,?
+375,?,141108.333,?
+376,?,128149.396,?
+377,?,103566.223,?
+378,?,130601.913,?
+379,?,104166.667,?
+380,?,164052.083,?
+381,?,141425.083,?
+382,?,106547.454,?
+383,?,142450.17,?
+384,?,139584.292,?
+385,?,153738.35,?
+386,?,148682.919,?
+387,?,164938.588,?
+388,?,79740.73,?
+389,?,124990.827,?
+390,?,128987.123,?
+391,?,157107.925,?
+392,?,131367.949,?
+393,?,150404.436,?
+394,?,170601.333,?
+395,?,171264.1,?
+396,?,222224.188,?
+397,?,167700.777,?
+398,?,143066.916,?
+399,?,120212.353,?
+400,?,158471.353,?
+401,?,119244.365,?
+402,?,260921.266,?
+403,?,258950.152,?
+404,?,258950.152,?
+405,?,346933.865,?
+406,?,338343.297,?
+407,?,229626.927,?
+408,?,302320.769,?
+409,?,204817.241,?
+410,?,218960.551,?
+411,?,255022.558,?
+412,?,178999.716,?
+413,?,233565.375,?
+414,?,138839.144,?
+415,?,197801.024,?
+416,?,197574.247,?
+417,?,212589.938,?
+418,?,214786.425,?
+419,?,132689.758,?
+420,?,133530.469,?
+421,?,243552.707,?
+422,?,255827.654,?
+423,?,200361.972,?
+424,?,213468.278,?
+425,?,230433.12,?
+426,?,293963.844,?
+427,?,208776.845,?
+428,?,267650.396,?
+429,?,181016.839,?
+430,?,136905.005,?
+431,?,138649.221,?
+432,?,111451.321,?
+433,?,137187.131,?
+434,?,142717.44,?
+435,?,146838.917,?
+436,?,125098.027,?
+437,?,131064.925,?
+438,?,131860.353,?
+439,?,142484.641,?
+440,?,137490.12,?
+441,?,165826.167,?
+442,?,140691.384,?
+443,?,198705.827,?
+444,?,139206.811,?
+445,?,188103.787,?
+446,?,149691.23,?
+447,?,200416.729,?
+448,?,118240.767,?
+449,?,140970.893,?
+450,?,128653.467,?
+451,?,192224.75,?
+452,?,294674.709,?
+453,?,162553.23,?
+454,?,85971.592,?
+455,?,334358.716,?
+456,?,93037.377,?
+457,?,242080.985,?
+458,?,135281.958,?
+459,?,159972.916,?
+460,?,170708.538,?
+461,?,359488.923,?
+462,?,301521.3,?
+463,?,205142.429,?
+464,?,232977.967,?
+465,?,215690.236,?
+466,?,364333.437,?
+467,?,132605.055,?
+468,?,164114.9,?
+469,?,124082.895,?
+470,?,138650.573,?
+471,?,144197.905,?
+472,?,147818.001,?
+473,?,180595.39,?
+474,?,180139.17,?
+475,?,178065.092,?
+476,?,186589.259,?
+477,?,183137.123,?
+478,?,181213.521,?
+479,?,242144.643,?
+480,?,191435.463,?
+481,?,182878.408,?
+482,?,193514.379,?
+483,?,200818.303,?
+484,?,332586.978,?
+485,?,358019.176,?
+486,?,164724.677,?
+487,?,310685.355,?
+488,?,177297.157,?
+489,?,230372.719,?
+490,?,181212.442,?
+491,?,251289.503,?
+492,?,220883.412,?
+493,?,172467.129,?
+494,?,192610.562,?
+495,?,139858.768,?
+496,?,267103.183,?
+497,?,163173.396,?
+498,?,295800.52,?
+499,?,151378.764,?
+500,?,124247.676,?
+501,?,126154.595,?
+502,?,97440.484,?
+503,?,103760.705,?
+504,?,115869.053,?
+505,?,149892.5,?
+506,?,146423.343,?
+507,?,291441.637,?
+508,?,421088.117,?
+509,?,362351.498,?
+510,?,418215.045,?
+511,?,392088.792,?
+512,?,339766.383,?
+513,?,281085.735,?
+514,?,324736.72,?
+515,?,410520.518,?
+516,?,261752.862,?
+517,?,347094.332,?
+518,?,346939.306,?
+519,?,320497.804,?
+520,?,201610.785,?
+521,?,334599.566,?
+522,?,230871.515,?
+523,?,218275.917,?
+524,?,169590.933,?
+525,?,221218.043,?
+526,?,213707.865,?
+527,?,185719.109,?
+528,?,180628.965,?
+529,?,195281.213,?
+530,?,221534.336,?
+531,?,225616.728,?
+532,?,215249.767,?
+533,?,178461.53,?
+534,?,235693.827,?
+535,?,182534.345,?
+536,?,264470.593,?
+537,?,307179.203,?
+538,?,312012.813,?
+539,?,257606.115,?
+540,?,291787.16,?
+541,?,281148.313,?
+542,?,240928.768,?
+543,?,259818.164,?
+544,?,271492.9,?
+545,?,224045.267,?
+546,?,215126.168,?
+547,?,246447.931,?
+548,?,210003.228,?
+549,?,206879.489,?
+550,?,192005.171,?
+551,?,139486.591,?
+552,?,181404.344,?
+553,?,187569.538,?
+554,?,192636.985,?
+555,?,201423.185,?
+556,?,205420.071,?
+557,?,203683.417,?
+558,?,136623.296,?
+559,?,137358.138,?
+560,?,116435.709,?
+561,?,118403.77,?
+562,?,176438.977,?
+563,?,156033.142,?
+564,?,262064.06,?
+565,?,324527.903,?
+566,?,182223.58,?
+567,?,159326.046,?
+568,?,155670.892,?
+569,?,172696.767,?
+570,?,264500.585,?
+571,?,210925.999,?
+572,?,225710.063,?
+573,?,244583.348,?
+574,?,167529.06,?
+575,?,198724.466,?
+576,?,179466.138,?
+577,?,181188.922,?
+578,?,269322.277,?
+579,?,210470.808,?
+580,?,270883.993,?
+581,?,258736.074,?
+582,?,203203.219,?
+583,?,168779.684,?
+584,?,172998.28,?
+585,?,204640.422,?
+586,?,141130.277,?
+587,?,157301.2,?
+588,?,139930.704,?
+589,?,138522.977,?
+590,?,172862.667,?
+591,?,116031.102,?
+592,?,141107.908,?
+593,?,140543.257,?
+594,?,108162.34,?
+595,?,163315.208,?
+596,?,149355.698,?
+597,?,127636.711,?
+598,?,214046.041,?
+599,?,144650.996,?
+600,?,166853.739,?
+601,?,170647.217,?
+602,?,134649.356,?
+603,?,123847.974,?
+604,?,144270.829,?
+605,?,120490.887,?
+606,?,178785.685,?
+607,?,143355.324,?
+608,?,145204.249,?
+609,?,96436.516,?
+610,?,109247.591,?
+611,?,112555.89,?
+612,?,148326.632,?
+613,?,144830.84,?
+614,?,163838.964,?
+615,?,146805.935,?
+616,?,122581.979,?
+617,?,149642.894,?
+618,?,132260.723,?
+619,?,134130.625,?
+620,?,118572.664,?
+621,?,123416.049,?
+622,?,140524.462,?
+623,?,143582.922,?
+624,?,114128.062,?
+625,?,130476.125,?
+626,?,128409.217,?
+627,?,123215.107,?
+628,?,112625.852,?
+629,?,97027.91,?
+630,?,140999.172,?
+631,?,124438.376,?
+632,?,132034.331,?
+633,?,135445.012,?
+634,?,119392.703,?
+635,?,143333.603,?
+636,?,93809.254,?
+637,?,100674.071,?
+638,?,132634.059,?
+639,?,82226.908,?
+640,?,119853.744,?
+641,?,127262.242,?
+642,?,130481.271,?
+643,?,109435.326,?
+644,?,139660.518,?
+645,?,130456.585,?
+646,?,98042.832,?
+647,?,197701.34,?
+648,?,122841.147,?
+649,?,117092.217,?
+650,?,136523.051,?
+651,?,147211.92,?
+652,?,144613.34,?
+653,?,122375.725,?
+654,?,118553.522,?
+655,?,156815.898,?
+656,?,116969.202,?
+657,?,142369.307,?
+658,?,128355.268,?
+659,?,114906.277,?
+660,?,122522.792,?
+661,?,101230.287,?
+662,?,119890.607,?
+663,?,100081.529,?
+664,?,158355.204,?
+665,?,138983.762,?
+666,?,157991.942,?
+667,?,142720.833,?
+668,?,136059.236,?
+669,?,110243.619,?
+670,?,139415.983,?
+671,?,156638.543,?
+672,?,118929.148,?
+673,?,117297.687,?
+674,?,130315.124,?
+675,?,102716.446,?
+676,?,100579.459,?
+677,?,126555.944,?
+678,?,142239.251,?
+679,?,147551.536,?
+680,?,136858.065,?
+681,?,146039.753,?
+682,?,139177.616,?
+683,?,142966.188,?
+684,?,132054.88,?
+685,?,137022.754,?
+686,?,152473.796,?
+687,?,171252.03,?
+688,?,141624.479,?
+689,?,140852.465,?
+690,?,199733.787,?
+691,?,121565.635,?
+692,?,163041.389,?
+693,?,162584.667,?
+694,?,108894.375,?
+695,?,144471.836,?
+696,?,265492.353,?
+697,?,238236.28,?
+698,?,232131.737,?
+699,?,211141.946,?
+700,?,182027.531,?
+701,?,244649.838,?
+702,?,356561.249,?
+703,?,367082.278,?
+704,?,240442.559,?
+705,?,192989.183,?
+706,?,143021.327,?
+707,?,206741.575,?
+708,?,204508.903,?
+709,?,196442.813,?
+710,?,216751.314,?
+711,?,149345.62,?
+712,?,145687.018,?
+713,?,166912.456,?
+714,?,237989.238,?
+715,?,277866.789,?
+716,?,310628.228,?
+717,?,246536.961,?
+718,?,218676.36,?
+719,?,144297.902,?
+720,?,232743.347,?
+721,?,196460.608,?
+722,?,227457.613,?
+723,?,196411.735,?
+724,?,131229.773,?
+725,?,134747.018,?
+726,?,143042.512,?
+727,?,149167.65,?
+728,?,149067.267,?
+729,?,214407.32,?
+730,?,91992.017,?
+731,?,93010.928,?
+732,?,97157.381,?
+733,?,106013.622,?
+734,?,107153.047,?
+735,?,121886.678,?
+736,?,120311.83,?
+737,?,123436.244,?
+738,?,151638.545,?
+739,?,162909.894,?
+740,?,137897.21,?
+741,?,132664.816,?
+742,?,174767.238,?
+743,?,170659.282,?
+744,?,175801.435,?
+745,?,118165.196,?
+746,?,141574.872,?
+747,?,200249.93,?
+748,?,225207.678,?
+749,?,210509.461,?
+750,?,125162.223,?
+751,?,110195.956,?
+752,?,112756.888,?
+753,?,105398.655,?
+754,?,149863.157,?
+755,?,102871.879,?
+756,?,147973.628,?
+757,?,95023.345,?
+758,?,102218.031,?
+759,?,92567.367,?
+760,?,101447.669,?
+761,?,334411.221,?
+762,?,281650.046,?
+763,?,290136.698,?
+764,?,211258.251,?
+765,?,145597.689,?
+766,?,200640.673,?
+767,?,200987,?
+768,?,264530.48,?
+769,?,247722.17,?
+770,?,163482.544,?
+771,?,221586.479,?
+772,?,180153.067,?
+773,?,184343.854,?
+774,?,236009.613,?
+775,?,236341.184,?
+776,?,274092.097,?
+777,?,339460.687,?
+778,?,200828.295,?
+779,?,110837.352,?
+780,?,162894.117,?
+781,?,156989.873,?
+782,?,135177.116,?
+783,?,131819.325,?
+784,?,109964.05,?
+785,?,113851.092,?
+786,?,143173.786,?
+787,?,107256.94,?
+788,?,126693.289,?
+789,?,131148.128,?
+790,?,128860.469,?
+791,?,138318.89,?
+792,?,170453.557,?
+793,?,166469.916,?
+794,?,172168.687,?
+795,?,189271.773,?
+796,?,182159.277,?
+797,?,205115.493,?
+798,?,168122.069,?
+799,?,179764.817,?
+800,?,151981.195,?
+801,?,178411.318,?
+802,?,195843.754,?
+803,?,346836.203,?
+804,?,402300.981,?
+805,?,159707.638,?
+806,?,277034.008,?
+807,?,359983.822,?
+808,?,354295.655,?
+809,?,165352.866,?
+810,?,182248.034,?
+811,?,216288.22,?
+812,?,203323.573,?
+813,?,163699.31,?
+814,?,177197.83,?
+815,?,175284.342,?
+816,?,183208.873,?
+817,?,185130.002,?
+818,?,145805.752,?
+819,?,128342.927,?
+820,?,118951.999,?
+821,?,187262.45,?
+822,?,195506.638,?
+823,?,101705.585,?
+824,?,119537.87,?
+825,?,139218.031,?
+826,?,128973.882,?
+827,?,343134.782,?
+828,?,282080.744,?
+829,?,361093.668,?
+830,?,418550.893,?
+831,?,323970.96,?
+832,?,387304.666,?
+833,?,423941.876,?
+834,?,380441.273,?
+835,?,425890.427,?
+836,?,288871.977,?
+837,?,328081.245,?
+838,?,325218.462,?
+839,?,346709.698,?
+840,?,317979.315,?
+841,?,302105.901,?
+842,?,243422.678,?
+843,?,244208.43,?
+844,?,237818.56,?
+845,?,196129.115,?
+846,?,191949.765,?
+847,?,198544.588,?
+848,?,217054.349,?
+849,?,275184.804,?
+850,?,226692.109,?
+851,?,202725.341,?
+852,?,181364.284,?
+853,?,177132.302,?
+854,?,182946.746,?
+855,?,180455.094,?
+856,?,202738.363,?
+857,?,192338.483,?
+858,?,188284.945,?
+859,?,180468.637,?
+860,?,186858.581,?
+861,?,233648.783,?
+862,?,175798.983,?
+863,?,184073.484,?
+864,?,188749.699,?
+865,?,224263.638,?
+866,?,178612.347,?
+867,?,219476.521,?
+868,?,221619.313,?
+869,?,184169.492,?
+870,?,181467.602,?
+871,?,330696.5,?
+872,?,347102.237,?
+873,?,300127.022,?
+874,?,262754.104,?
+875,?,262722.863,?
+876,?,307364.003,?
+877,?,197751.462,?
+878,?,265668.962,?
+879,?,236006.132,?
+880,?,369669.068,?
+881,?,229457.283,?
+882,?,227012.683,?
+883,?,230180.428,?
+884,?,228742.068,?
+885,?,233107.449,?
+886,?,205423.516,?
+887,?,201810.469,?
+888,?,227385.854,?
+889,?,193101.166,?
+890,?,281736.407,?
+891,?,261415.004,?
+892,?,252123.22,?
+893,?,278406.902,?
+894,?,122899.053,?
+895,?,132284.933,?
+896,?,157622.21,?
+897,?,202587.228,?
+898,?,198039.661,?
+899,?,129592.658,?
+900,?,128104.081,?
+901,?,140992.924,?
+902,?,260321.358,?
+903,?,142588.814,?
+904,?,154192.709,?
+905,?,217358.393,?
+906,?,195831.565,?
+907,?,219974.4,?
+908,?,213160.073,?
+909,?,212016.883,?
+910,?,176187.833,?
+911,?,175041.82,?
+912,?,190956.648,?
+913,?,251200.675,?
+914,?,272360.86,?
+915,?,235619.253,?
+916,?,278944.125,?
+917,?,299056.952,?
+918,?,144070.512,?
+919,?,199518.256,?
+920,?,142744.802,?
+921,?,160477.276,?
+922,?,178887.172,?
+923,?,200068.012,?
+924,?,238245.157,?
+925,?,156529.278,?
+926,?,138978.853,?
+927,?,140869.582,?
+928,?,112422.986,?
+929,?,136467.174,?
+930,?,147470.517,?
+931,?,140879.576,?
+932,?,116100.223,?
+933,?,157567.008,?
+934,?,150433.344,?
+935,?,189916.26,?
+936,?,149055.667,?
+937,?,190954.827,?
+938,?,132696.142,?
+939,?,88250.085,?
+940,?,86205.83,?
+941,?,115108.652,?
+942,?,136229.7,?
+943,?,139786.788,?
+944,?,158919.812,?
+945,?,157739.561,?
+946,?,133042.709,?
+947,?,131868.336,?
+948,?,140183.138,?
+949,?,137659.736,?
+950,?,166239.663,?
+951,?,125416.789,?
+952,?,153452.971,?
+953,?,137705.882,?
+954,?,141043.903,?
+955,?,141934.995,?
+956,?,125483.108,?
+957,?,130482.816,?
+958,?,126271.455,?
+959,?,137131.453,?
+960,?,129956.224,?
+961,?,150429.045,?
+962,?,122732.802,?
+963,?,129237.465,?
+964,?,154182.149,?
+965,?,231719.368,?
+966,?,141675.606,?
+967,?,133616.632,?
+968,?,174096.753,?
+969,?,124137.602,?
+970,?,132822.885,?
+971,?,127910.539,?
+972,?,142376.624,?
+973,?,148193.569,?
+974,?,145199.714,?
+975,?,150012.27,?
+976,?,115928.034,?
+977,?,110654.739,?
+978,?,129146.879,?
+979,?,118125.348,?
+980,?,121233.463,?
+981,?,109400.023,?
+982,?,113032.305,?
+983,?,122819.164,?
+984,?,139142.33,?
+985,?,98124.982,?
+986,?,147322.69,?
+987,?,184170.631,?
+988,?,156423.408,?
+989,?,114872.201,?
+990,?,146242.539,?
+991,?,143863.272,?
+992,?,193442.463,?
+993,?,104184.527,?
+994,?,132745.11,?
+995,?,124747.855,?
+996,?,131510.947,?
+997,?,121644.404,?
+998,?,132152.09,?
+999,?,115487.831,?
+1000,?,139464.83,?
+1001,?,119752.718,?
+1002,?,134478.944,?
+1003,?,119657.101,?
+1004,?,169189.778,?
+1005,?,137913.735,?
+1006,?,122962.242,?
+1007,?,142620.534,?
+1008,?,103917.037,?
+1009,?,103635.94,?
+1010,?,183087.725,?
+1011,?,188881.232,?
+1012,?,172669.133,?
+1013,?,128840.941,?
+1014,?,120418,?
+1015,?,198594.755,?
+1016,?,113420.177,?
+1017,?,127620.931,?
+1018,?,163488.793,?
+1019,?,126953.408,?
+1020,?,151151.886,?
+1021,?,137863.839,?
+1022,?,134882.368,?
+1023,?,124049.204,?
+1024,?,131101.096,?
+1025,?,130304.283,?
+1026,?,151635.54,?
+1027,?,208187.983,?
+1028,?,141302.325,?
+1029,?,151500.37,?
+1030,?,156262.669,?
+1031,?,99256.988,?
+1032,?,181539.604,?
+1033,?,161383.093,?
+1034,?,162594.397,?
+1035,?,112913.58,?
+1036,?,225301.409,?
+1037,?,147022.691,?
+1038,?,118907.46,?
+1039,?,103209.503,?
+1040,?,138629.725,?
+1041,?,136897.232,?
+1042,?,141198.117,?
+1043,?,119278.693,?
+1044,?,176545.717,?
+1045,?,221928.513,?
+1046,?,258971.295,?
+1047,?,297486.686,?
+1048,?,259603.018,?
+1049,?,223092.303,?
+1050,?,217760.198,?
+1051,?,187722.813,?
+1052,?,207032.179,?
+1053,?,218780.913,?
+1054,?,223937.187,?
+1055,?,151600.637,?
+1056,?,179324.623,?
+1057,?,137677.376,?
+1058,?,151164.251,?
+1059,?,227151.807,?
+1060,?,208139.996,?
+1061,?,195718.124,?
+1062,?,223188.182,?
+1063,?,130724.205,?
+1064,?,146474.585,?
+1065,?,140394.676,?
+1066,?,138520.819,?
+1067,?,128893.633,?
+1068,?,127559.211,?
+1069,?,134119.55,?
+1070,?,128663.65,?
+1071,?,252931.9,?
+1072,?,228631.886,?
+1073,?,197155.843,?
+1074,?,228944.868,?
+1075,?,282498.665,?
+1076,?,230656.417,?
+1077,?,212888.918,?
+1078,?,181547.256,?
+1079,?,188815.039,?
+1080,?,186052.424,?
+1081,?,183386.6,?
+1082,?,180005.511,?
+1083,?,135299.311,?
+1084,?,131398.621,?
+1085,?,135420.036,?
+1086,?,138964.68,?
+1087,?,134310.102,?
+1088,?,156210.222,?
+1089,?,167998.653,?
+1090,?,492221.74,?
+1091,?,150853.152,?
+1092,?,129021.233,?
+1093,?,97621.866,?
+1094,?,118268.08,?
+1095,?,121313.033,?
+1096,?,113221.886,?
+1097,?,123319.28,?
+1098,?,156628.561,?
+1099,?,135543.068,?
+1100,?,138543.225,?
+1101,?,135318.248,?
+1102,?,133857.289,?
+1103,?,142409.905,?
+1104,?,174698.339,?
+1105,?,141303.462,?
+1106,?,159989.657,?
+1107,?,132066.074,?
+1108,?,185224.462,?
+1109,?,188922.753,?
+1110,?,123537.973,?
+1111,?,197570.684,?
+1112,?,153054.632,?
+1113,?,209019.089,?
+1114,?,254736.774,?
+1115,?,129486.288,?
+1116,?,124180.762,?
+1117,?,139505.172,?
+1118,?,99794.197,?
+1119,?,94420.19,?
+1120,?,128120.922,?
+1121,?,130717.429,?
+1122,?,118683.27,?
+1123,?,271030.302,?
+1124,?,162571.057,?
+1125,?,209313.691,?
+1126,?,209673.405,?
+1127,?,189124.793,?
+1128,?,146174.681,?
+1129,?,144405.705,?
+1130,?,218646.519,?
+1131,?,204899.117,?
+1132,?,226578.656,?
+1133,?,254208.736,?
+1134,?,172359.93,?
+1135,?,205758.032,?
+1136,?,315210.403,?
+1137,?,204598.003,?
+1138,?,286817.603,?
+1139,?,320138.368,?
+1140,?,158684.28,?
+1141,?,152436.567,?
+1142,?,93816.131,?
+1143,?,107639.173,?
+1144,?,103547.983,?
+1145,?,97487.937,?
+1146,?,158287.057,?
+1147,?,197110.498,?
+1148,?,199782.313,?
+1149,?,166119.243,?
+1150,?,107783.105,?
+1151,?,150050.25,?
+1152,?,155182.708,?
+1153,?,133770.635,?
+1154,?,131114.265,?
+1155,?,157812.372,?
+1156,?,142107.697,?
+1157,?,196833.488,?
+1158,?,194379.25,?
+1159,?,207665.537,?
+1160,?,186802.971,?
+1161,?,179608.51,?
+1162,?,184914.228,?
+1163,?,248275.661,?
+1164,?,303359.712,?
+1165,?,270087.738,?
+1166,?,170527.328,?
+1167,?,164347.191,?
+1168,?,396950.703,?
+1169,?,423560.96,?
+1170,?,332034.886,?
+1171,?,420899.91,?
+1172,?,392243.72,?
+1173,?,298670.41,?
+1174,?,368782.4,?
+1175,?,155233.359,?
+1176,?,183420.492,?
+1177,?,169038.342,?
+1178,?,260041.095,?
+1179,?,178096.275,?
+1180,?,147403.625,?
+1181,?,119292.291,?
+1182,?,195653.543,?
+1183,?,108734.292,?
+1184,?,142277.202,?
+1185,?,102084.116,?
+1186,?,94466.789,?
+1187,?,102381.128,?
+1188,?,141354.906,?
+1189,?,146016.533,?
+1190,?,141504.601,?
+1191,?,153725.227,?
+1192,?,382737.623,?
+1193,?,257569.935,?
+1194,?,263659.063,?
+1195,?,355790.31,?
+1196,?,313864.369,?
+1197,?,333949.313,?
+1198,?,289439.317,?
+1199,?,289454.616,?
+1200,?,360497.883,?
+1201,?,349947.8,?
+1202,?,331500.266,?
+1203,?,279054.823,?
+1204,?,278157.078,?
+1205,?,307491.566,?
+1206,?,290085.045,?
+1207,?,174393.271,?
+1208,?,180024.971,?
+1209,?,186741.758,?
+1210,?,279359.884,?
+1211,?,183248.556,?
+1212,?,194101.506,?
+1213,?,213060.593,?
+1214,?,206153.183,?
+1215,?,168574.043,?
+1216,?,186561.761,?
+1217,?,198378.619,?
+1218,?,254030.527,?
+1219,?,281760.654,?
+1220,?,273063.477,?
+1221,?,354744.737,?
+1222,?,315392.127,?
+1223,?,435339.01,?
+1224,?,309078.727,?
+1225,?,309058.447,?
+1226,?,258488.216,?
+1227,?,294222.765,?
+1228,?,216400.144,?
+1229,?,195103.152,?
+1230,?,392048.07,?
+1231,?,198460.29,?
+1232,?,129324.55,?
+1233,?,200851.644,?
+1234,?,122786.763,?
+1235,?,195761.996,?
+1236,?,189212.553,?
+1237,?,194926.795,?
+1238,?,195477.1,?
+1239,?,183653.585,?
+1240,?,168940.332,?
+1241,?,167753.94,?
+1242,?,126586.469,?
+1243,?,126047.902,?
+1244,?,140080.01,?
+1245,?,125351.342,?
+1246,?,127174.243,?
+1247,?,128445.146,?
+1248,?,133324.429,?
+1249,?,107881.064,?
+1250,?,131560.04,?
+1251,?,259399.843,?
+1252,?,337121.423,?
+1253,?,174975.347,?
+1254,?,151383.448,?
+1255,?,173409.936,?
+1256,?,165267.431,?
+1257,?,189673.003,?
+1258,?,224829.443,?
+1259,?,158694.264,?
+1260,?,162928.877,?
+1261,?,139453.863,?
+1262,?,173315.01,?
+1263,?,149013.513,?
+1264,?,133936.574,?
+1265,?,136620.066,?
+1266,?,142328.748,?
+1267,?,169967.386,?
+1268,?,165665.753,?
+1269,?,156942.565,?
+1270,?,142098.034,?
+1271,?,124170.133,?
+1272,?,122770.546,?
+1273,?,159437.927,?
+1274,?,162588.078,?
+1275,?,138899.895,?
+1276,?,154659.771,?
+1277,?,124397.272,?
+1278,?,142920.355,?
+1279,?,157729.672,?
+1280,?,136321.738,?
+1281,?,149238.208,?
+1282,?,152244.001,?
+1283,?,150460.036,?
+1284,?,146774.895,?
+1285,?,140703.314,?
+1286,?,138698.239,?
+1287,?,154276.401,?
+1288,?,135624.64,?
+1289,?,130820.67,?
+1290,?,138559.652,?
+1291,?,132622.625,?
+1292,?,193350.25,?
+1293,?,146243.912,?
+1294,?,238442.39,?
+1295,?,126869.103,?
+1296,?,103347.912,?
+1297,?,98454.499,?
+1298,?,104750.233,?
+1299,?,157148.1,?
+1300,?,148976.842,?
+1301,?,149437.633,?
+1302,?,144665.056,?
+1303,?,180056.53,?
+1304,?,163753.156,?
+1305,?,247624.315,?
+1306,?,133533.342,?
+1307,?,94574.114,?
+1308,?,138786.581,?
+1309,?,140268.512,?
+1310,?,139289.411,?
+1311,?,123433.05,?
+1312,?,114962.631,?
+1313,?,163853.524,?
+1314,?,137376.34,?
+1315,?,132549.981,?
+1316,?,138331.212,?
+1317,?,139870.525,?
+1318,?,112851.476,?
+1319,?,141728.888,?
+1320,?,105380.277,?
+1321,?,103214.197,?
+1322,?,108497.655,?
+1323,?,115258.484,?
+1324,?,129569.025,?
+1325,?,147747.653,?
+1326,?,92842.095,?
+1327,?,122170.173,?
+1328,?,99340.455,?
+1329,?,157985.566,?
+1330,?,104016.466,?
+1331,?,118780.143,?
+1332,?,84222.737,?
+1333,?,170244.96,?
+1334,?,118593.24,?
+1335,?,123061.961,?
+1336,?,102718.755,?
+1337,?,195052.505,?
+1338,?,123675.369,?
+1339,?,123212.87,?
+1340,?,80008.043,?
+1341,?,105806.555,?
+1342,?,138280.945,?
+1343,?,150199.477,?
+1344,?,139815.798,?
+1345,?,102300.036,?
+1346,?,103096.951,?
+1347,?,156635.328,?
+1348,?,152699.966,?
+1349,?,132784.535,?
+1350,?,137180.984,?
+1351,?,165154.473,?
+1352,?,146191.652,?
+1353,?,176461.043,?
+1354,?,160059.415,?
+1355,?,111091.124,?
+1356,?,210065.727,?
+1357,?,159565.061,?
+1358,?,135504.894,?
+1359,?,168105.768,?
+1360,?,147596.462,?
+1361,?,120489.683,?
+1362,?,179289.814,?
+1363,?,258428.205,?
+1364,?,189672.023,?
+1365,?,151409.45,?
+1366,?,135629.834,?
+1367,?,141718.385,?
+1368,?,249243.183,?
+1369,?,197107.135,?
+1370,?,232345.94,?
+1371,?,187759.723,?
+1372,?,266948.812,?
+1373,?,286785.221,?
+1374,?,216096.357,?
+1375,?,227892.872,?
+1376,?,196990.736,?
+1377,?,165125.757,?
+1378,?,152760.696,?
+1379,?,189576.245,?
+1380,?,190921.22,?
+1381,?,202815.073,?
+1382,?,225469.649,?
+1383,?,154915.433,?
+1384,?,157209.446,?
+1385,?,123525.918,?
+1386,?,207048.285,?
+1387,?,202223.61,?
+1388,?,203180.118,?
+1389,?,208031.864,?
+1390,?,268419.397,?
+1391,?,230170.858,?
+1392,?,227520.443,?
+1393,?,236792.421,?
+1394,?,141617.158,?
+1395,?,202115.076,?
+1396,?,207186.696,?
+1397,?,191722.741,?
+1398,?,198786.066,?
+1399,?,146563.983,?
+1400,?,127447.997,?
+1401,?,135028.236,?
+1402,?,198779.19,?
+1403,?,122624.265,?
+1404,?,261816.054,?
+1405,?,140479.348,?
+1406,?,133026.881,?
+1407,?,108029.544,?
+1408,?,120569.502,?
+1409,?,123365.466,?
+1410,?,153384.794,?
+1411,?,103784.067,?
+1412,?,75758.61,?
+1413,?,113441.086,?
+1414,?,141487.723,?
+1415,?,124376.015,?
+1416,?,146822.285,?
+1417,?,139735.214,?
+1418,?,166993.494,?
+1419,?,142654.032,?
+1420,?,112629.848,?
+1421,?,146660.361,?
+1422,?,169349.505,?
+1423,?,174413.021,?
+1424,?,178826.644,?
+1425,?,169109.545,?
+1426,?,210011.53,?
+1427,?,104253.005,?
+1428,?,127610.374,?
+1429,?,70353.732,?
+1430,?,95726.222,?
+1431,?,142374.607,?
+1432,?,82106.971,?
+1433,?,107575,?
+1434,?,83982.036,?
+1435,?,310419.83,?
+1436,?,285582.036,?
+1437,?,203250.565,?
+1438,?,145437.439,?
+1439,?,213166.968,?
+1440,?,156473.061,?
+1441,?,203679.247,?
+1442,?,189340.02,?
+1443,?,328605.173,?
+1444,?,333808.659,?
+1445,?,121636.108,?
+1446,?,192181.387,?
+1447,?,120431.083,?
+1448,?,133970.889,?
+1449,?,151265.123,?
+1450,?,87563.702,?
+1451,?,96362.214,?
+1452,?,154045.258,?
+1453,?,97500.179,?
+1454,?,95128.167,?
+1455,?,93751.083,?
+1456,?,96353.806,?
+1457,?,158459.332,?
+1458,?,114656.438,?
+1459,?,219588.447,?
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.37 seconds
+
+=== Summary ===
+
+Total Number of Instances                0     
+Ignored Class Unknown Instances               1459     
+

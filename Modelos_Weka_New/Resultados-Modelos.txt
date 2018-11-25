@@ -1,0 +1,44 @@
+RandomForest
+Correlation coefficient                  0.994 
+Mean absolute error                   6258.6117
+Root mean squared error              10004.4208
+Relative absolute error                 11.0547 %
+Root relative squared error             13.0486 %
+Total Number of Instances             1456    
+
+MultiplayerPerceptron
+Correlation coefficient                  0.9888
+Mean absolute error                   9015.5232
+Root mean squared error              11465.3279
+Relative absolute error                 15.9243 %
+Root relative squared error             14.9541 %
+Total Number of Instances             1456    
+
+LinearRegression
+Correlation coefficient                  0.968 
+Mean absolute error                  13051.4475
+Root mean squared error              19237.8346
+Relative absolute error                 23.053  %
+Root relative squared error             25.0917 %
+Total Number of Instances             1456 
+
+M5P
+Correlation coefficient                  0.9594
+Mean absolute error                  14833.8358
+Root mean squared error              21635.1363
+Relative absolute error                 26.2013 %
+Root relative squared error             28.2184 %
+Total Number of Instances             1456 
+
+IBK
+Correlation coefficient                  0.9326
+Mean absolute error                  18426.5585
+Root mean squared error              28518.0601
+Relative absolute error                 32.5472 %
+Root relative squared error             37.1957 %
+Total Number of Instances             1456   
+
+
+
+ 
+
